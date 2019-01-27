@@ -1,0 +1,26 @@
+{
+  "name": "server-shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "DEBUG=express* node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkpoFlash/server-shopping.git"
+  },
+  "author": "Kirill Anisimov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkpoFlash/server-shopping/issues"
+  },
+  "homepage": "https://github.com/AkpoFlash/server-shopping#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.17.11"
+  }
+}
